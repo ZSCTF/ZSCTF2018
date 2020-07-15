@@ -1,0 +1,7 @@
+题目：好(song)难(fen)
+
+简介：by Docupa
+
+分数：50
+
+flag:zsctf{rsa_yes!}

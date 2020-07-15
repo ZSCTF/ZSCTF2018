@@ -1,0 +1,7 @@
+题目：签到
+
+简介：by Docupa
+
+分数：50
+
+flag;flag{pwn_is_so_funny}

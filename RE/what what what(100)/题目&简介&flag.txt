@@ -1,0 +1,8 @@
+题目：别看这题
+
+简介：别做了，凑数的，flag格式：zsctf{}
+      by Docupa
+	  
+分数:400
+
+flag:zsctf{181088143FF8C3B07E1F1EBE1543C0AC4C5D8A8258EC5E317FED2E80B060966E}

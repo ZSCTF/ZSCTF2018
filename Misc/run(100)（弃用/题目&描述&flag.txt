@@ -1,0 +1,9 @@
+题目：run
+
+描述：你好像不能站着不动
+      nc  xxxxxx
+	  by Docupa
+	  
+分数：100
+
+flag:zsctf{y0u_esc5pe_1t_we1l_d0ne!}

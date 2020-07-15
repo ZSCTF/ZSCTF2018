@@ -1,0 +1,9 @@
+Started Tue Aug 03 12:10:07 2010
+
+session id: 1280808607
+LOADED: 'Init' 63 ms on Game Loading
+First Draw Time: 2219 ms
+LOADED: 'LoaderBar' 407 ms on Game Loading
+LOADING:Long reanim 'reanim\Zombie.reanim' 2377 ms on Game Loading
+LOADING:Long reanim 'reanim\SelectorScreen.reanim' 2224 ms on Game Loading
+Load Time: 54860 ms

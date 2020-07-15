@@ -1,0 +1,7 @@
+题目：你怎么会回事老弟
+
+简介：by Docupa
+
+分数：50
+
+flag:zsctf{crypto_zhendi_nanchu}

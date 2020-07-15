@@ -1,0 +1,7 @@
+题目：异或
+
+简介：by zhakul
+
+分数：75
+
+flag：zsctf{There_is_a_reason}

@@ -1,0 +1,7 @@
+﻿  源.cpp
+c:\users\asus\desktop\2018zsctf校赛\简单异或-题目\异或\异或\源.cpp(6): warning C4838: 从“int”转换到“char”需要收缩转换
+c:\users\asus\desktop\2018zsctf校赛\简单异或-题目\异或\异或\源.cpp(6): warning C4309: “初始化”: 截断常量值
+c:\users\asus\desktop\2018zsctf校赛\简单异或-题目\异或\异或\源.cpp(7): warning C4309: “初始化”: 截断常量值
+c:\users\asus\desktop\2018zsctf校赛\简单异或-题目\异或\异或\源.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\asus\desktop\2018zsctf校赛\简单异或-题目\异或\异或\源.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+  异或.vcxproj -> C:\Users\ASUS\Desktop\2018zsctf校赛\简单异或-题目\异或\Debug\异或.exe

@@ -1,0 +1,7 @@
+题目：web web
+
+简介：by skywind
+
+分数：50
+
+flag:ZSCTF{N07_0n1y_phP-6u9_1acbeefbeefcdea}

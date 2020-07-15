@@ -1,0 +1,8 @@
+题目：if
+
+简介：windows，flag格式zsctf{}
+      by Docupa
+
+分数：75
+
+flag:zsctf{ulppvnkjeovmimwnepih}

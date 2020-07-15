@@ -1,0 +1,8 @@
+题目：签到题
+
+分数：50
+
+描述：无
+		by Docupa
+
+flag:zsctf{we1c0me5t07zsctf2018777777777}

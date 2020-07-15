@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("my_fast_framework", "for my_fast_framework support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("my_fast_framework", "enable my_fast_framework support", "no");
+
+if (PHP_MY_FAST_FRAMEWORK != "no") {
+	EXTENSION("my_fast_framework", "my_fast_framework.c");
+}
+

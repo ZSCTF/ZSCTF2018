@@ -1,0 +1,7 @@
+题目：search
+
+分数: 100
+
+简介:by Docupa
+
+flag：zsctf{Y0u_win_th1s_One_Bin5ry_Sea6ch}

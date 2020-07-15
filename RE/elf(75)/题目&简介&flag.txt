@@ -1,0 +1,7 @@
+题目：elf
+
+分数:75
+
+简介：by Docupa
+
+flag:flag{Thunk_c0des_xoR_thr3e_de4l}

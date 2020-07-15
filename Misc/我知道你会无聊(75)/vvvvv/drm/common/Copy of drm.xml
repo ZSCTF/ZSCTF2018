@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Properties>
+
+	<Layout screen="InternalErrorScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="123" y="378" src="common/images/buyitnowfor" />
+		<Image x="162" y="420" halign="center" valign="center" src="price" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="HeaderInternalErrorScreen" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="!prog:gScreen:GetMessageInternalError()" />
+		<Text halign="center" valign="center" x="25" y="238" width="591" height="66" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gScreen:GetDRMReturnCodeMsg()" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="Quit" x="213" y="370" normal="common/images/btn_Quit_01" over="common/images/btn_Quit_02" applyMask="common/images/btn_mask" function="Quit" />
+		<Button id="ContactUs" x="420" y="370" normal="common/images/btn_ContactUs_01" over="common/images/btn_ContactUs_02" applyMask="common/images/btn_mask" function="ContactUs" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="APScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Text halign="right" valign="center" x="22" y="233" width="239" height="18" color="#000000" font="!sys:SimSun:9,bold" id="SerialNumber" />
+		<Text halign="center" valign="center" x="95" y="263" width="453" height="18" color="#CC0000" font="!sys:SimSun:9,bold" id="!prog:gScreen.mError" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="HeaderAPScreen" />
+		<Text halign="center" valign="center" x="36" y="196" width="571" height="18" color="#FF6600" font="!sys:SimSun:9,bold" id="MessageAPScreen" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="Cancel" x="144" y="370" normal="common/images/btn_cancel" over="common/images/btn_cancel2" applyMask="common/images/btn_mask" function="Cancel" />
+		<Button id="Register" x="361" y="370" normal="common/images/btn_register" over="common/images/btn_register2" applyMask="common/images/btn_mask" function="Register" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="ConnectBegin">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="30" y="200" src="common/images/icon_connected" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="!prog:gConnectBegin_Header" />
+		<Text halign="center" valign="center" x="58" y="196" width="524" height="18" color="#FF6600" font="!sys:SimSun:9,bold" id="!prog:gConnectBegin_Message" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Text halign="center" valign="center" x="25" y="274" width="591" height="66" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gConnectBegin_Details" />
+		<Text halign="center" valign="center" x="84" y="369" width="490" height="18" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gConnectBegin_ButtonInfo" />
+		<Button id="Cancel" x="123" y="394" normal="common/images/btn_cancel" over="common/images/btn_cancel2" applyMask="common/images/btn_mask" function="Cancel" />
+		<Button id="Retry" x="330" y="394" normal="common/images/btn_retry" over="common/images/btn_retry2" applyMask="common/images/btn_mask" function="Retry" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="ConnectCheck">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="30" y="200" src="common/images/icon_connecting" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="!prog:gConnectCheck_Header" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="!prog:gConnectCheck_Message" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+	
+	<Layout screen="ConnectFailed">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="HeaderBuyConnectFail" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="MessageBuyConnectFail" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Text halign="center" valign="top" x="25" y="228" width="592" height="110" color="#000000" font="!sys:SimSun:9,bold" id="DetailsBuyConnectFail" />
+		<Button id="Retry" x="144" y="370" normal="common/images/btn_retry" over="common/images/btn_retry2" applyMask="common/images/btn_mask" function="Retry" />
+		<Button id="Cancel" x="361" y="370" normal="common/images/btn_cancel" over="common/images/btn_cancel2" applyMask="common/images/btn_mask" function="Cancel" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="EndScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background" />
+		<Image x="114" y="246" halign="center" valign="center" src="game" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="418" y="266" halign="center" valign="center" src="!prog:return gBulletManager:GetImage('main')" />
+		<Image x="123" y="378" src="common/images/buyitnowfor" />
+		<Image x="162" y="420" halign="center" valign="center" src="price" />
+		<Text halign="center" valign="center" x="218" y="192" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageExpireScreenPreBullet" />
+		<Text halign="center" valign="center" x="218" y="325" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageExpireScreenPostBullet" />
+		<Text halign="center" valign="center" x="218" y="157" width="399" height="21" color="#CC0000" font="!sys:SimSun:10,bold" id="!prog:gScreen:GetTimeLeftString()" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="Finish" x="213" y="370" normal="common/images/btn_finish" over="common/images/btn_finish2" applyMask="common/images/btn_mask" function="Finish" />
+		<Button id="BuyNow" x="420" y="370" normal="common/images/btn_buynow" over="common/images/btn_buynow2" applyMask="common/images/btn_mask" function="BuyNow" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+		<Link id="APLink" x="348" y="434" label="LinkLabelAlreadyPurchased" font="!sys:SimSun:9,bold" color="#003399" color_over="#FF6600" function="APScreen" />
+	</Layout>
+
+	<Layout screen="ExpireScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background" />
+		<Image x="114" y="224" halign="center" valign="center" src="!prog:return GetDrmSS()" />
+		<Image x="114" y="245" halign="center" valign="center" src="common/images/ssframe" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="418" y="266" halign="center" valign="center" src="!prog:return gBulletManager:GetImage('main')" />
+		<Image x="123" y="378" src="common/images/buyitnowfor" />
+		<Image x="162" y="420" halign="center" valign="center" src="price" />
+		<Image x="213" y="370" applyMask="common/images/btn_mask" src="common/images/btn_play3" />
+		<Text halign="center" valign="center" x="218" y="192" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageExpireScreenPreBullet" />
+		<Text halign="center" valign="center" x="218" y="325" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageExpireScreenPostBullet" />
+		<Text halign="center" valign="center" x="218" y="157" width="399" height="21" color="#CC0000" font="!sys:SimSun:12,bold" id="!prog:gScreen:GetExpireString()" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="BuyNow" x="420" y="370" normal="common/images/btn_buynow" over="common/images/btn_buynow2" applyMask="common/images/btn_mask" function="BuyNow" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+		<Link id="APLink" x="348" y="434" label="LinkLabelAlreadyPurchased" font="!sys:SimSun:9,bold" color="#003399" color_over="#FF6600" function="APScreen" />
+	</Layout>
+
+	<Layout screen="ManualAPScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Text halign="right" valign="center" x="22" y="233" width="400" height="18" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gScreen:GetAuthorizationRequestCode()" />
+		<Text halign="right" valign="center" x="22" y="255" width="239" height="18" color="#000000" font="!sys:SimSun:9,bold" id="SerialNumber" /> 
+		<Text halign="right" valign="center" x="22" y="283" width="239" height="18" color="#000000" font="!sys:SimSun:9,bold" id="ActivationCode" />
+		<Text halign="center" valign="center" x="95" y="313" width="500" height="18" color="#CC0000" font="!sys:SimSun:9,bold" id="!prog:gScreen.mError" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="HeaderManualAPScreen" />
+		<Text halign="center" valign="center" x="36" y="200" width="580" height="18" color="#FF6600" font="!sys:SimSun:9,bold" id="MessageManualAPScreen" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="Cancel" x="144" y="370" normal="common/images/btn_cancel" over="common/images/btn_cancel2" applyMask="common/images/btn_mask" function="Cancel" />
+		<Button id="Register" x="361" y="370" normal="common/images/btn_register" over="common/images/btn_register2" applyMask="common/images/btn_mask" function="Register" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="RegFailed">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="!prog:gErrorScreen_Header" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="!prog:gErrorScreen_Message" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Text halign="center" valign="top" x="25" y="228" width="592" height="110" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gScreen:GetErrorScreenDetails()" />
+		<Button id="Cancel" x="144" y="370" normal="common/images/btn_cancel" over="common/images/btn_cancel2" applyMask="common/images/btn_mask" function="Retry" />
+		<Button id="ContactUs" x="361" y="370" normal="common/images/btn_ContactUs_01" over="common/images/btn_ContactUs_02" applyMask="common/images/btn_mask" function="ContactUs" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+	
+	<Layout screen="SNUnRemain">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="!prog:gErrorScreen_Header" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="!prog:gErrorScreen_Message" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Text halign="center" valign="top" x="25" y="234" width="592" height="110" color="#000000" font="!sys:SimSun:9,bold" id="!prog:gErrorScreen_Details" />
+		<Button id="Cancel" x="144" y="370" normal="common/images/btn_Quit_01" over="common/images/btn_Quit_02" applyMask="common/images/btn_mask" function="Cancel" />
+		<Button id="ContactUs" x="361" y="370" normal="common/images/btn_ContactUs_01" over="common/images/btn_ContactUs_02" applyMask="common/images/btn_mask" function="ContactUs" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="RegSucceeded">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background_centered" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="30" y="200" src="common/images/icon_complete" />
+		<Text halign="center" valign="center" x="125" y="154" width="388" height="20" color="#CC0000" font="!sys:SimSun:12,bold" id="HeaderRegSucceeded" />
+		<Text halign="center" valign="center" x="25" y="196" width="592" height="36" color="#FF6600" font="!sys:SimSun:9,bold" id="MessageRegSucceeded" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Text halign="center" valign="center" x="25" y="271" width="592" height="66" color="#000000" font="!sys:SimSun:9,bold" id="DetailsRegSucceeded" />
+		<Button id="Continue" x="213" y="370" normal="common/images/btn_continue" over="common/images/btn_continue2" applyMask="common/images/btn_mask" function="Continue" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+	</Layout>
+
+	<Layout screen="TrialScreen">
+		<Image x="0" y="0" src="common/images/ecomm_wrapper_background" />
+		<Image x="114" y="246" halign="center" valign="center" src="game" />
+		<Image x="395" y="74" halign="center" valign="center" src="logo" />
+		<Image x="418" y="266" halign="center" valign="center" src="!prog:return gBulletManager:GetImage('main')" />
+		<Image x="123" y="378" src="common/images/buyitnowfor" />
+		<Image x="162" y="420" halign="center" valign="center" src="price" />
+		<Text halign="center" valign="center" x="218" y="192" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageTrialScreenPreBullet" />
+		<Text halign="center" valign="center" x="218" y="325" width="399" height="18" color="#003399" font="!sys:SimSun:9,bold" id="MessageTrialScreenPostBullet" />
+		<Text halign="center" valign="center" x="218" y="157" width="399" height="21" color="#CC0000" font="!sys:SimSun:10,bold" id="!prog:gScreen:GetTimeLeftString()" />
+		<Text halign="center" valign="center" x="0" y="455" width="640" height="25" color="#CCCCCC" font="!sys:SimSun:8" spacing="10" id="CopyrightDisclaimer" />
+		<Button id="Play" x="213" y="370" normal="common/images/btn_play" over="common/images/btn_play2" applyMask="common/images/btn_mask" function="Play" />
+		<Button id="BuyNow" x="420" y="370" normal="common/images/btn_buynow" over="common/images/btn_buynow2" applyMask="common/images/btn_mask" function="BuyNow" />
+		<Button id="Help" x="574" y="423" normal="common/images/btn_help" over="common/images/btn_help2" label="Help" font="!sys:SimSun:9" function="ShowHelp" />
+		<Button id="PartnerLogo" x="18" y="355" normal="PartnerLogo" function="ShowPartnerLogo" />
+		<Link id="APLink" x="348" y="434" label="LinkLabelAlreadyPurchased" font="!sys:SimSun:9,bold" color="#003399" color_over="#FF6600" function="APScreen" />
+	</Layout>
+
+	<String id="PartnerURL">http://www.popcap.com</String>
+	<String id="ButtonInfoBuyBegin">按“取消”退出此购买屏幕，或按“重试”再次开始购买过程。</String>
+	<String id="ConnectCheckURL">Str_StoreURL .. "wrapper_connect.txt?n=" .. math.random(1, 100000)</String>
+	<String id="CopyrightDisclaimer">© 2000-2006 PopCap Games, Inc. 保留所有权利。&cr;PopCap、PopCap Games和祖玛 是PopCap Games, Inc.的注册商标。</String>
+	<String id="CustomerSupportURL">http://www.popcap.com/support</String>
+	<String id="DetailsBuyBegin">您在网站上完成购买的同时会收到&cr;注册密钥后，注册过程会自动完成。&cr;&cr;如果此注册过程没有完成，请^:id=ManualAP,label=LinkLabelEnterRegKeyManually,font=!sys:SimSun:9\,bold,color=#003399,color_over=#FF6600,function=EnterRegKey:^</String>
+	<String id="DetailsRegBegin"></String>
+	<String id="DetailsBuyConnectFail">您需要使用有效的互联网连接访问网站才能继续。请检查计算机是否在线并且能够访问互&cr;联网，一般是通过拨号调制解调器或网卡。可能还需要设置安全软件或防火墙，以允许游戏访问&cr;互联网。一旦计算机在线并且网站可以访问，请重新开始购买过程。</String>
+	<String id="DetailsRegSucceeded">感谢您购买并注册PopCap游戏！</String>
+	<String id="EditFont">!sys:SimSun:9,bold</String>
+	<String id="ErrorAP">请输入有效的序列号</String>
+	<String id="ErrorManualAP">您的序列号或激活代码无效。请检查它们并重试。</String>
+	<String id="HeaderInternalErrorScreen">开始游戏时出现错误</String>
+	<String id="HeaderAPScreen">输入您的购买信息</String>
+	<String id="HeaderBuyBegin">正在购买并注册</String>
+	<String id="HeaderRegBegin">解除游戏锁定</String>
+	<String id="HeaderBuyConnect">打开现在购买的网站</String>
+	<String id="HeaderBuyConnectFail">无法继续购买游戏</String>
+	<String id="HeaderRegConnect">解除游戏锁定</String>
+	<String id="HeaderExpireTimeLeftLabel">您的60分钟试用期已结束。</String>
+	<String id="HeaderManualAPScreen">输入您的注册信息</String>
+	<String id="HeaderRegFailed">注册失败</String>
+	<String id="HeaderSNUnRemain">序列号使用次数过多</String>
+	<String id="HeaderRegSucceeded">恭喜您！</String>
+	<String id="HeaderTimeLeftLabelPlural">您的免费游戏时间还剩%d分钟！</String>
+	<String id="HeaderTimeLeftLabelSingular">您的免费游戏时间还剩%d分钟！</String>
+	<String id="Help">帮助</String>
+	<String id="HelpHeader">帮助</String>
+	<String id="LinkLabelAlreadyPurchased">已经购买此游戏？</String>
+	<String id="LinkLabelContactCustomerSupport">联系客户支持</String>
+	<String id="LinkLabelEnterRegKeyManually">您的计算机是否脱机？手动注册。</String>
+	<String id="MessageAPScreen">请输入在订购期间中收到的“序列号”。</String>
+	<String id="MessageBuyBegin">网上购买过程已开始。</String>
+	<String id="MessageRegBegin">请稍等，在验证您的序列号。</String>
+	<String id="MessageBuyConnect">浏览器正在连接网站，请稍候</String>
+	<String id="MessageBuyConnectFail">连接到网站以购买游戏时发生错误。</String>
+	<String id="MessageRegConnect">请稍等，在验证您的序列号。</String>
+	<String id="MessageEndScreenPostBullet">不需要CD或下载。简单易玩！</String>
+	<String id="MessageEndScreenPreBullet">今天在您的60分钟试用期到期前购买游戏！</String>
+	<String id="MessageExpireScreenPostBullet">不需要CD或下载。简单易玩！</String>
+	<String id="MessageExpireScreenPreBullet">今天购买游戏继续娱乐！</String>
+	<String id="MessageExpireScreenshot">购买游戏并恢复游戏！</String>
+	<String id="MessageManualAPScreen">请联系厂商的客户支持部门，并提供授权请求代码和序列号。您将收到激活代码。在下面的方框中输入激活代码。</String>
+	<String id="MessageRegFailed">您的游戏无法成功注册或解禁。</String>
+	<String id="MessageSNUnRemain">您的游戏无法成功注册，因为序列号的使用次数过多。</String>
+	<String id="MessageRegSucceeded">您已成功注册并解禁了此游戏。</String>
+	<String id="MessageTrialScreenPostBullet">不需要CD或下载。简单易玩！</String>
+	<String id="MessageTrialScreenPreBullet">今天在您的60分钟试用期到期前购买游戏！</String>
+	<String id="MessageInternalError">开始游戏时发生错误。</String>
+	<String id="MessageInternalErrorScreenPostBullet">请重新安装此游戏或^:id=APLink,label=LinkLabelContactCustomerSupport,font=!sys:SimSun:9\,bold,color=#003399,color_over=#FF6600,function=ContactUs:^</String>
+	<String id="MessageLicenseFileReadOnly">更新许可证时发生错误。</String>
+	<String id="MessageRegFaild">注册你的游戏时发生错误。请点击“取消”回到上一步再次尝试, 或者点击“联系我们” 与&cr;客户支持部联系, 并请提供一下错误信息码。:\n\n</String>
+	<String id="UndefinedCode">未定义的错误: </String>
+	<String id="UnknowCode">未知的错误</String>
+	<String id="SerialNumber">序列号：</String>
+	<String id="ReadmeURL">readme.html</String>
+	<String id="StoreURL">http://store.popcap.com/</String>
+	<String id="TextletFont0">!sys:SimSun:10</String>
+	<String id="TextletFont1">!sys:SimSun:10,bold</String>
+	<String id="TextletHeaderFont">!sys:SimSun:12,bold</String>
+	<String id="TooltipFont">!sys:SimSun:9,bold</String>
+	<String id="TooltipFontEx">!sys:SimSun:9</String>
+	<String id="AuthorizationRequestCode">授权请求代码：%s</String>
+	<String id="ActivationCode">激活代码：</String>
+	<String id="FALSE_INSTALL_DATE_INVALID">您的系统时钟设置不正确。请将其更改为正确的日期和时间并重试。&cr;处理无法继续。如果需要帮助，请单击“联系我们”联系客户支持部。</String>
+	<String id="FALSE_NOT_VIRGIN_INSTALL">无法访问辅助许可证文件。原因可能有一种或多种：&cr;对所需文件、注册表位置、包含文件夹的权限不足，&cr;或现有文件/文件夹标记为只读。处理无法继续。如果需要帮助，&cr;请单击“联系我们”联系客户支持部。</String>
+	<String id="FALSE_MISSING_MAIN_LF">某些关键文件丢失，游戏无法开始。游戏可能安装地不正确。&cr;请重新安装游戏，或单击“联系我们”联系客户支持部。</String> 
+	<String id="FALSE_MAIN_LF_CORRUPT">许可证文件损坏。处理无法继续。如果需要帮助，&cr;请单击“联系我们”联系客户支持部。</String> 
+	<String id="FALSE_CLOCK_TURNED_BACK">您的系统时钟设置不正确。请将其更改为正确的日期和时间并重试。&cr;处理无法继续。如果需要帮助，请单击“联系我们”联系客户支持部。</String>  
+	<String id="FALSE_NOT_AUTH_CLOCK_TURNED_BACK">您的系统时钟设置不正确。请将其更改为正确的日期和时间并重试。&cr;处理无法继续。如果需要帮助，请单击“联系我们”联系客户支持部。</String>
+	<String id="FALSE_MLF_ACCESS_DENIED">必须能够访问许可证文件才能玩游戏。原因可能是权限不足，&cr;或许可证文件更改为只读。请尝试重新安装游戏，或&cr;单击“联系我们”联系客户支持部门。</String>  
+	<String id="FALSE_MLF_READONLY">必须能够访问许可证文件才能玩游戏。原因可能是权限不足，&cr;或许可证文件更改为只读。请尝试重新安装游戏，或&cr;单击“联系我们”联系客户支持部门。</String>
+	<String id="FALSE_AF_VK_ACCESS_DENIED">必须能够访问许可证文件才能玩游戏。原因可能是权限不足，&cr;或许可证文件更改为只读。请尝试重新安装游戏，或&cr;单击“联系我们”联系客户支持部门。</String>  
+	<String id="FALSE_AF_READONLY">必须能够访问许可证文件才能玩游戏。原因可能是权限不足，&cr;或许可证文件更改为只读。请尝试重新安装游戏，或&cr;单击“联系我们”联系客户支持部门。</String>  
+	<String id="FALSE_NOT_VALID_HOST_APP">安装游戏时发生错误，并且某些关键文件丢失。请重新安装游戏，或&cr;单击“联系我们”联系客户支持部门。</String> 
+	<String id="FALSE_NO_ACTIVATIONS">您的游戏无法注册，因为您提供的序列号使用次数过多。&cr;请购买游戏的另一个副本，如果认为出现错误，请单击“联系我们”联系客户支持。</String>
+	<String id="FALSE_NOT_AUTH_NOT_EXPIRED">您的60分钟试用期已结束。</String>
+	<String id="TRUE_EXPIRY">TRUE_EXPIRY</String>
+	<String id="FALSE_LICENSE_EXPIRED">FALSE_LICENSE_EXPIRED</String>
+	<String id="FALSE_CODE_OUT_OF_RANGE">FALSE_CODE_OUT_OF_RANGE</String>
+	<String id="FALSE_CODE_INVALID_BAD_ID">FALSE_CODE_INVALID_BAD_ID</String>
+	<String id="FALSE_CODE_INVALID_BAD_FP">FALSE_CODE_INVALID_BAD_FP</String> 
+	<String id="FALSE_CODE_INVALID_EXPIRED_SL">FALSE_CODE_INVALID_EXPIRED_SL</String> 
+	<String id="FALSE_CODE_INVALID_SINGLE_USE">FALSE_CODE_INVALID_SINGLE_USE</String>  
+	<String id="FALSE_CODE_INVALID_FORMAT">FALSE_CODE_INVALID_FORMAT</String> 
+	<String id="FALSE_CODE_INVALID_PASSWORD">FALSE_CODE_INVALID_PASSWORD</String>   
+	<String id="FALSE_LICENSE_NOT_INITIALIZED">FALSE_LICENSE_NOT_INITIALIZED</String>
+	<String id="FALSE_INTERNAL_LICENSE_CHECK_FAILED">FALSE_INTERNAL_LICENSE_CHECK_FAILED</String>  
+	<String id="FALSE_NO_SN">FALSE_NO_SN</String> 
+	<String id="FALSE_INVALID_SN">FALSE_INVALID_SN</String>
+	<String id="FALSE_NO_CHECKPOINT_URL">FALSE_NO_CHECKPOINT_URL</String> 
+	<String id="FALSE_CONNECTION_FAILURE">FALSE_CONNECTION_FAILURE</String>
+	<String id="FALSE_INTERNAL_FAILURE">FALSE_INTERNAL_FAILURE</String> 
+</Properties>

@@ -1,0 +1,10 @@
+from pwn import*
+elf=ELF('./rop')
+rop=ROP(elf)
+print(rop.rdi)
+print(rop.rsi)
+print(rop.rdx)
+print(rop.rcx)
+print(rop.r8)
+print(rop.r9)
+print(rop.rax)

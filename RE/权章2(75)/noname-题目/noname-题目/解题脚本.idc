@@ -1,0 +1,32 @@
+#include<idc.idc>
+static main()
+{
+	auto a,b,c,d,i;
+	for(i=0;i<600;i++)
+	{
+		a=Byte(0x41c95c-i*4);
+		b=Byte(0x41c95c-i*4+2400);
+		c=Byte(0x41c95c-i*4+4800);
+		a=a-1;
+		if(a==0)
+		{
+			PatchByte(0x41dc20+b,Byte(0x41dc20+b)-c);
+		}
+		if(a==1)
+		{
+			PatchByte(0x41dc20+b,Byte(0x41dc20+b)+c);
+		}
+		if(a==2)
+		{
+			PatchByte(0x41dc20+b,Byte(0x41dc20+b)^c);
+		}
+		if(a==3)
+		{
+			PatchByte(0x41dc20+b,Byte(0x41dc20+b)^2*c);
+		}
+	}
+	for(i=0;i<30;i++)
+	{
+		Message("%c",Byte(0x41dc20+i));
+	}
+}

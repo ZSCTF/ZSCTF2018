@@ -1,0 +1,12 @@
+﻿<Properties>
+<Bullets id="main" font="!sys:Arial:9,bold" width="406">
+<Bullet id="Bullet1" image="custom\images\bullet1">五个游戏模式：冒险模式，迷你游戏，益智模式，&cr;生存模式，以及轻松自由的休闲花园。</Bullet>
+<Bullet id="Bullet2" image="custom\images\bullet2" spacing="10">征服冒险模式的所有50个关卡—你的战场从泳池&cr;到屋顶，无论白天黑夜，或是浓雾环绕。</Bullet>
+<Bullet id="Bullet3" image="custom\images\bullet3">智斗26种个性迥异的独特僵尸—包括撑杆僵尸，&cr;潜水僵尸，还有雪橇车僵尸。</Bullet>
+
+</Bullets>
+
+
+<String id="CopyrightDisclaimer">©2008 SpinTop Media, Inc. Published by PopCap Games, Inc. Full copyright and trademark information is available in the game's&cr;Readme file. All rights reserved.</String>
+
+</Properties>

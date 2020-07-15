@@ -1,0 +1,7 @@
+题目：rua
+
+简介：看看报名的那个网页
+
+分数:50
+
+flag:zsctf{what_is_NTA}
